@@ -510,9 +510,9 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else  //Ender 3 Hero micro swiss
-  #define DEFAULT_Kp 20.3
-  #define DEFAULT_Ki 1.95
-  #define DEFAULT_Kd 52.8
+  #define DEFAULT_Kp 20.7
+  #define DEFAULT_Ki 1.99
+  #define DEFAULT_Kd 53.9
   #endif
 #endif // PIDTEMP
 
@@ -1056,7 +1056,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -53, -15, -2.05 } //-0.59
+#define NOZZLE_TO_PROBE_OFFSET { -53, -15, -2.00 } //-0.59
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
